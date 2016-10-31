@@ -163,11 +163,11 @@ def main():
     """
     Get all the points and assign the color based on K
     """
-    K = 5
+    K = 7
     x = []
     y = []
     z = []
-    clr = ['red', 'yellow', 'magenta', 'green','black', 'orange', 'cyan', 'gray', 'pink', 'brown']
+    clr = ['red', 'yellow', 'magenta', 'green', 'orange', 'black','cyan', 'gray', 'pink', 'brown']
     fig = plt.figure(2)
     ax = fig.add_subplot(111, projection='3d')
     cm = plt.get_cmap("RdYlGn")
